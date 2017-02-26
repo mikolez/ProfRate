@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WriteActivity"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write a comment"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e2e2e2"
+        >
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/professorName"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insert course's or professor's name"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/comment"
+        android:hint="Type the comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@android:color/transparent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        />
+
+    <io.techery.properratingbar.ProperRatingBar
+        android:id="@+id/properRatingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:prb_defaultRating="0"
+        app:prb_symbolicTick="☆"
+        app:prb_symbolicTickNormalColor="@android:color/darker_gray"
+        app:prb_symbolicTickSelectedColor="#ffd700"
+        app:prb_totalTicks="5"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Send"
+        android:textColor="#ffffff"
+        android:background="#11b2de"
+        />
+
+</LinearLayout>

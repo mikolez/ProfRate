@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "714267785150",
+    "firebase_url": "https://profrate-752ff.firebaseio.com",
+    "project_id": "profrate-752ff",
+    "storage_bucket": "profrate-752ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714267785150:android:1e8e377f3ed43e2d",
+        "android_client_info": {
+          "package_name": "com.profrate.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714267785150-g93lh4cmorkc1vmmkhrgmehp99i39tlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7wVuuYpLkAnMTAetOgSsU7qKsHH0RX74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
